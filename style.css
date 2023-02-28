@@ -1,0 +1,158 @@
+body{
+    max-width: 1440px;
+    max-height: 800px;
+    justify-content: space-between;
+    position: relative;
+    
+}
+
+.leftbig{
+    width: 788px;
+    height: 800px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 160px;
+ 
+}
+
+.img1{
+
+width: 31px;
+height: 31px;
+margin-right: 10px;
+z-index: 1;
+}
+
+.fh2{
+font-size: 18px;
+z-index: 1;
+
+}
+
+
+.girl{
+    position: absolute;
+    width: 610px;
+    height: 800px;
+    left: 830px;
+    top: 0px;
+}
+
+.content{
+max-width: 445px;
+
+width: 830px;
+
+
+display: flex;
+flex-direction: column;
+justify-content: unset;
+align-items: flex-start;
+align-content: space-between;
+z-index: 1;
+}
+
+.base{
+
+display: flex;
+align-items: center;
+align-content: center;
+width: 158px;
+height: 33px;
+text-align: left;
+}
+
+.first{
+    display: inline-block;
+    margin: 0;
+    font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 64px;
+line-height: 64px;
+letter-spacing: 17.3206px;
+color: #CE9898;
+}
+
+.second{
+    font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 71px;
+letter-spacing: 17.3206px;
+color: #423A3A;
+margin: 0;
+}
+
+.third{
+    font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #CE9898;
+}
+
+#email{
+    opacity: 0.3;
+    height: 30px;
+    border: 1px solid #CE9898;
+border-radius: 28px;
+width: 445px;
+height: 50px;
+}
+
+.Path{
+position: absolute;
+width: 788px;
+height: 800px;
+z-index: 0;
+background: linear-gradient(221.42deg, #FFF1F1 2.6%)
+}
+
+.Path2{
+position: absolute;
+width: 417px;
+height: 423px;
+left: 413px;
+top: 376px;
+z-index: 0;
+background: linear-gradient(221.42deg, #FFF1F1 2.6%,)
+}
+
+#submit{
+    background-color: #d3a8a8;   
+    border-radius: 28px; 
+    border: none;  
+    color: #bb8585;  
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    height: 55px;
+    width: 100px;
+    position: absolute;
+    position: absolute;
+    font-size: 30px;
+margin-left: 350px;
+margin-top: -55px;
+
+
+position: sticky;
+}
+
+#submit:hover {
+    background-color: #be9faf; 
+  }
+
+#email-input {
+    padding: 10px 40px 10px 10px; 
+    background-image: url('Group\ 4.png'); 
+    background-position: right center; 
+    background-repeat: no-repeat; 
+    background-size: 20px; 
+    background-color: #423A3A;
+
+}
